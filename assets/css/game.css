@@ -1,0 +1,74 @@
+body {
+    background-image: url("../images/back.jpg");
+    margin-top: -5em;
+}
+.item {
+    width: 100px;
+    height: 250px;
+    position: absolute;
+    background: greenyellow;
+    bottom: 0;
+    border-radius: 50px;
+}
+.new {
+    background:url('eye.png') no-repeat center;
+    width:100px;
+    height:130px;
+    position: absolute;
+    bottom: 0;
+}
+.stone-up {
+    width:20px;
+    height:20px;
+    background-color: white;
+    position:absolute;
+    bottom: 100px;
+    border-radius:50%;
+    margin-left : 1200px;
+
+
+}
+.stone-middle {
+    width:20px;
+    height:20px;
+    background-color: white;
+    position:absolute;
+    bottom: 160px;
+    border-radius:50%;
+    margin-left : 1200px;
+}
+.stone-down {
+    width:20px;
+    height:20px;
+    background-color: white;
+    position:absolute;
+    bottom: 40px;
+    border-radius:50%;
+    margin-left : 1200px;
+}
+
+#shots{
+    margin-top:-3em;
+    margin-left:0.6em;
+}
+#points{
+    margin-top:-3.5em;
+    margin-left:0.7em;
+}
+#top {
+    height:50px;
+    width:50px;
+
+}
+#bottom {
+    width:50px;
+    height:50px;
+    margin-top:10px;
+}
+#box {
+    height:110px;
+    width:50px;
+    top:0;
+    float:right;
+    margin-top: 5em;
+}
